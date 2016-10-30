@@ -45,9 +45,6 @@ fn route_handler(req: &mut Request) -> IronResult<Response> {
             return Ok(Response::with((status::Ok, format!("{}: {}", "<NONE>", *query))));     
         },
     }
-    
-    //  db_conf.display();
-
 }
 
 
