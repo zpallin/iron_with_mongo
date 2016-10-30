@@ -1,0 +1,9 @@
+[package]
+name = "iron_with_mongo"
+version = "0.1.0"
+authors = ["zpallin <zpallin@gmail.com>"]
+
+[dependencies]
+iron_with_db = { git = "https://github.com/zpallin/iron_with_db", version = "*" }
+mongodb = "*"
+bson = "*"
